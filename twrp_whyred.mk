@@ -20,11 +20,11 @@ PRODUCT_RELEASE_NAME := whyred
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/pb/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := whyred
-PRODUCT_NAME := omni_whyred
+PRODUCT_NAME := twrp_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 5 Pro
 PRODUCT_MANUFACTURER := Xiaomi
